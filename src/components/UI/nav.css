@@ -1,0 +1,24 @@
+.header-continer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: auto;
+  margin-top: 2rem;
+  border-bottom: 2px solid rgba(211, 211, 211, 0.548);
+}
+.nav-link{
+  color:black;
+}
+
+.nav-link:after {
+    content: ""; 
+    display: block; 
+    width: 0%; 
+    padding-top:0; 
+    border-bottom: 3px solid #e65100; 
+    transition: .5s;
+}
+
+.nav-link:hover:after {
+    width:100%; 
+}

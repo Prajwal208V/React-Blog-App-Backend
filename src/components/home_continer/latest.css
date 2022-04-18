@@ -1,0 +1,39 @@
+.lates_the{
+    border-bottom:3px solid #e65100;
+}
+.lest_box{
+    margin-top:2rem;
+    width:100%;
+    display:flex;
+    gap:1rem;
+    justify-content:space-around;
+}
+.box{
+    display:flex;
+    flex-direction:column;
+    width:23rem;
+    height:31rem;
+    gap:1rem;
+    border-radius:10px;
+    background-color:#fafafa;
+    padding:10px;
+}
+.box img{
+    width:22rem;
+    height:15rem;
+    border-radius:10px;
+}
+.box p{
+    color:black;
+    text-align: justify;
+    font-weight:100;
+}
+.box h5{
+    color:gray;
+}
+.para_box{
+    height:9rem;
+}
+.title{
+    color:#607d8b;
+}

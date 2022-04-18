@@ -1,0 +1,20 @@
+.display_container{
+    margin-top:2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+}
+.display_container h2{
+    text-align: center;
+}
+.display_container img{
+    width:30rem;
+    height:22rem;
+    margin-bottom:2rem;
+    margin-top:2rem;
+}
+.display_container p{
+    color:rgb(80, 78, 78);
+    text-align:justify;
+}
