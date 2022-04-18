@@ -52,6 +52,7 @@ const TopPost = (props) => {
                                 </div>
                             )
                         }
+                        return'';
                     })}
                 </div>
             </div>
